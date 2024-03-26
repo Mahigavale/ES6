@@ -59,9 +59,9 @@ let promise2=new Promise((resolve,reject)=>{
 
 
 
-  function demo()
+ async function demo()
 {
-let combined_promises=   Promise.all([promise1,promise2])
+let combined_promises= await   Promise.all([promise1,promise2])
 
 return combined_promises;
 }
