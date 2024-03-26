@@ -44,5 +44,3 @@ combined_promises.then((values)=>
 {
     console.log(e);
 })
-
-
